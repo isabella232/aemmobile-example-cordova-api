@@ -1,0 +1,65 @@
+/* Media Query for Tablets */
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+    /* Header */
+    header {
+        float: none;
+
+        width: 100%;
+        margin-top: 90px;
+    }
+    header .profileLogo .logoPlaceholder {
+        font-family: 'Montserrat', sans-serif;
+
+        display: inline-block;
+    }
+    header .profilePhoto {
+        float: right;
+        clear: both;
+
+        margin: 5% 3% 0;
+    }
+    header .profileHeader {
+        margin-top: 7%;
+    }
+    header .socialNetworkNavBar .socialNetworkNav {
+        display: inline-block;
+
+        width: 74px;
+        height: 74px;
+        margin-right: 23px;
+    }
+    /* Main content and sections */
+    .mainContent .section1 .section1Content {
+        font-family: sans-serif;
+
+        display: block;
+
+        margin: 30px 5%;
+    }
+    .mainContent .externalResourcesNav {
+        clear: both;
+
+        margin: 40px 0 40px 20%;
+        padding-top: 0;
+    }
+    .mainContent .externalResourcesNav .externalResources {
+        width: 199px;
+        height: 48px;
+        margin-top: 5%;
+    }
+    /* Footer */
+    footer .footerDisclaimer {
+        font-family: sans-serif;
+
+        float: left;
+
+        margin-left: 3%;
+    }
+    footer .footerNote {
+        font-family: sans-serif;
+
+        float: right;
+
+        margin-right: 3%;
+    }
+}
